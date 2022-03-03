@@ -1,0 +1,130 @@
+:root {
+  font-family: "Roboto", sans-serif;
+  --brand-font: Roboto;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.container_header {
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+}
+.logo {
+  margin: 10px;
+}
+
+.hamburguer {
+  margin: 10px;
+}
+
+.main {
+  position: relative;
+  transform: translateY(60px);
+  top: 0px;
+}
+
+.main_part {
+  padding: 110px 10px 20px 10px;
+  height: 50%;
+  background-color: #1d75de;
+}
+
+.title_1 {
+  padding: 10px;
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  /*display: flex;
+  position: sticky;*/
+}
+
+.subtitle {
+  padding: 10px;
+  line-height: 40px;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+.button {
+  background-color: green;
+  font-size: 20px;
+  border-radius: 20px;
+  color: white;
+  width: 85%;
+  margin: 10px auto;
+  height: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.terms {
+  padding: 15px;
+  margin-top: 10px;
+  color: white;
+  font-size: 10px;
+}
+.white_section {
+  padding: 40px;
+  margin: 0 auto;
+}
+.title_2 {
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.icons {
+  padding: 40px;
+}
+/* body {
+  background-color: aqua;
+}
+.encabezado {
+  color: white;
+}
+
+.header_links {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background-color: black;
+  font-family: "roboto";
+  color: white;
+}
+.links {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+}
+.item {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+.image {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.navegation {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.links-2 {
+  display: flex;
+  list-style: none;
+}
+  justify-content: flex-end;
+}
+*/
