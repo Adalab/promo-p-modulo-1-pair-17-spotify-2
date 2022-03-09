@@ -2,6 +2,7 @@
 @import "core/reset";
 @import "components/code";
 @import "components/links";
+@import "layout/contact";
 @import "layout/page";
 @import "layout/header";
 @import "layout/footer";
@@ -36,6 +37,7 @@
   position: relative;
   transform: translateY(60px);
   top: 0px;
+  margin-top: 60px;
 }
 
 .main_part {

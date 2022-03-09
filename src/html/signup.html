@@ -4,14 +4,67 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
     <title>Formulario</title>
   </head>
-  <body>
-    <img src="./assets/images/logo_spotify.png" alt="Logo Spotify" />
+  <body class="wrapper">
+    <img
+      class="logo_form"
+      src="./assets/images/logo_spotify.png"
+      alt="Logo Spotify"
+    />
     <h1>Regístrate gratis para escuchar.</h1>
-    <div>
-      <button>Registrate con Facebook</button>
-      <button>Registrate con Google</button>
+    <div class="buttons_register">
+      <button class="button_fb">Registrate con Facebook</button>
+      <button class="button_google">Registrate con Google</button>
     </div>
+    <form action="https://adalab-server-form.herookuapp.com/" method="post">
+      <h2 class="title_form">Registrarte con tu correo electrónico</h2>
+      <div class="form_container">
+        <label class="label" for="email">¿Cuál es tu correo electrónico?</label>
+        <input
+          class="input"
+          id="email"
+          type="email"
+          name="email"
+          placeholder="Pon tu correo electrónico"
+        />
+        <label class="label" for="email">Confirma tu correo electrónico</label>
+        <input
+          class="input"
+          id="email"
+          type="email"
+          name="email"
+          placeholder="Vuelve a poner tu correo electrónico"
+        />
+        <label class="label" for="password">Crea una contraseña</label>
+        <input
+          class="input"
+          id="password"
+          type="password"
+          name="password"
+          placeholder="Crea una contraseña"
+        />
+      </div>
+      <div>
+        <div class="dia">
+          <label for="day">Día</label>
+          <select id="day" name="day">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+          </select>
+        </div>
+        <div class="month">
+          <label for="month">Mes</label>
+          <select name="month" id=""></select>
+        </div>
+        <div>Mes</div>
+        <div>Año</div>
+      </div>
+    </form>
   </body>
 </html>
