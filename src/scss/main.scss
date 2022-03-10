@@ -6,6 +6,7 @@
 @import "layout/page";
 @import "layout/header";
 @import "layout/footer";
+@import "layout/white-section";
 @import "pages/index";
 :root {
   font-family: "Roboto", sans-serif;
@@ -33,7 +34,7 @@
   margin: 10px;
 }
 
-.main {
+/*.main {
   position: relative;
   transform: translateY(60px);
   top: 0px;
@@ -44,7 +45,7 @@
   padding: 110px 10px 20px 10px;
   height: 50%;
   background-color: #1d75de;
-}
+}*/
 
 .title_1 {
   padding: 10px;
@@ -82,11 +83,11 @@
   color: white;
   font-size: 10px;
 }
-.white_section {
+/*.white_section {
   padding: 40px;
   margin: 0 auto;
 }
-.title_2 {
+/*.title_2 {
   font-weight: bold;
   font-size: 35px;
   margin-bottom: 30px;

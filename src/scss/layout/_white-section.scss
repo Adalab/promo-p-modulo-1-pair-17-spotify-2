@@ -1,0 +1,26 @@
+.white_section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto auto auto;
+
+  gap: 20px;
+}
+
+.title_2 {
+  grid-column: 2/3;
+  border: 2px solid black;
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+.icons {
+  grid-column: 2/3;
+
+  border: 2px solid black;
+  width: auto;
+  height: auto;
+  /*display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;*/
+}
